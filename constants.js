@@ -1,2 +1,2 @@
-export const APP_NAME = ''
-export const ACC_NAME = ''
+export const APP_NAME = 'videocalling'
+export const ACC_NAME = 'coderdeep69'

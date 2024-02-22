@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.videocallingapp-mergeReleaseResources-32:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/home/deepdhar/.gradle/caches/transforms-3/a5f998525983bd7e263c73ffaa4c061e/transformed/material-1.9.0/res/values-small-v4/values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

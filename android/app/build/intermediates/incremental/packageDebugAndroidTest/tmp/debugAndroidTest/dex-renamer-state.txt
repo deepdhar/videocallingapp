@@ -1,0 +1,7 @@
+#Thu Feb 22 21:41:57 IST 2024
+base.0=/home/deepdhar/code_files/react_native_codes/VideoCallingApp/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.1=/home/deepdhar/code_files/react_native_codes/VideoCallingApp/android/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/10/classes.dex
+path.0=0/classes.dex
+path.1=10/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

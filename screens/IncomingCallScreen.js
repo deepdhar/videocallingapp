@@ -1,6 +1,5 @@
 import { ImageBackground, StyleSheet, Text, View, Pressable } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import bg from '../assets/images/ios-image.png'
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import Entypo from 'react-native-vector-icons/Entypo'
 import Feather from 'react-native-vector-icons/Feather'
@@ -37,7 +36,8 @@ export default function IncomingCallScreen() {
     }
 
     return (
-        <ImageBackground source={bg} style={styles.background} resizeMode='cover'>
+        // <ImageBackground source={bg} style={styles.background} resizeMode='cover'>
+        <View style={styles.background}>
             <Text style={styles.name}>{caller}</Text>
             <Text style={styles.phoneNumber}>WhatsApp video...</Text>
 
@@ -70,7 +70,7 @@ export default function IncomingCallScreen() {
                     <Text style={styles.iconText}>Accept</Text>
                 </Pressable>
             </View>
-        </ImageBackground>
+        </View>
     )
 }
 
@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
     background: {
         flex: 1,
         alignItems: 'center',
+        backgroundColor: '#7b4e60'
     },
     name: {
         fontSize: 30,

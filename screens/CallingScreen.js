@@ -24,6 +24,7 @@ export default function CallingScreen() {
     const voximplant = Voximplant.getInstance();
 
     const call = useRef(incomingCall);
+
     const endpoint = useRef(null);
 
     // Permissions
@@ -66,8 +67,8 @@ export default function CallingScreen() {
 
         const answerCall = async () => {
             subscribeToCallEvents();
-            endpoint.current = call.current.getEndpoints()[0];
-            subscribeToEndpointEvent();
+            // endpoint.current = call.current.getEndpoints()[0];
+            // subscribeToEndpointEvent();
             call.current.answer(callSettings)
         }
 
@@ -122,7 +123,6 @@ export default function CallingScreen() {
             call.current.off(Voximplant.CallEvents.ProgressToneStart);
             call.current.off(Voximplant.CallEvents.Connected);
             call.current.off(Voximplant.CallEvents.Disconnected);
-            endpoint.current.off(Voximplant.EndpointEvents.RemoteVideoStreamAdded)
         }
     
     },[permissionGranted])
@@ -192,9 +192,9 @@ const styles = StyleSheet.create({
         height: 150,
         position: 'absolute',
         right: 20,
-        top: 100,
+        top: 0,
         borderRadius: 10,
-        backgroundColor: '#ffff6e'
+        // backgroundColor: '#ffff6e'
     },
     remoteVideo: {
         position: 'absolute',
@@ -202,7 +202,7 @@ const styles = StyleSheet.create({
         right: 0,
         top: 0,
         bottom: 0,
-        borderRadius: 10,
-        backgroundColor: ''
+        borderRadius: 0,
+        backgroundColor: '#7b4e80'
     }
 })

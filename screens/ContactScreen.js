@@ -40,6 +40,7 @@ export default function ContactScreen() {
                 onChangeText={setSearchTerm}
                 style={styles.searchInput} 
                 placeholder='Search...'
+                placeholderTextColor='gray'
             />
             <FlatList
                 data={filteredContacts}
@@ -63,6 +64,7 @@ const styles = StyleSheet.create({
         flex: 1
     },
     contactName: {
+        color: 'black',
         fontSize: 16,
         marginVertical: 15,
         paddingHorizontal: 5
@@ -74,6 +76,7 @@ const styles = StyleSheet.create({
     },
     searchInput: {
         backgroundColor: '#dedede',
+        color: 'black',
         padding: 12,
         borderRadius: 30,
         marginBottom: 10

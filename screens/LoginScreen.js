@@ -53,6 +53,7 @@ export default function LoginScreen() {
                 value={userName}
                 onChangeText={setUserName}
                 placeholder='username'
+                placeholderTextColor='gray'
                 style={styles.input}
                 autoCapitalize='none'
             />
@@ -60,6 +61,7 @@ export default function LoginScreen() {
                 value={password}
                 onChangeText={setPassword}
                 placeholder='password'
+                placeholderTextColor='gray'
                 style={styles.input}
                 secureTextEntry
             />
@@ -79,6 +81,7 @@ const styles = StyleSheet.create({
     },
     input: {
         backgroundColor: 'white',
+        color: 'black',
         padding: 10,
         marginVertical: 10,
         borderRadius: 5,
