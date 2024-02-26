@@ -1,67 +1,32 @@
 [
     {
         "user_id": "1",
-        "user_name": "deep",
-        "user_display_name": "Deep"
+        "user_name": "user1",
+        "user_display_name": "User 1"
     },
     {
         "user_id": "2",
-        "user_name": "urju",
-        "user_display_name": "Urju"
+        "user_name": "user2",
+        "user_display_name": "User 2"
     },
     {
         "user_id": "3",
-        "user_name": "Ludo",
-        "user_display_name": "Aditya"
+        "user_name": "user3",
+        "user_display_name": "User 3"
     },
     {
         "user_id": "4",
-        "user_name": "leba",
-        "user_display_name": "Aniket"
+        "user_name": "user4",
+        "user_display_name": "User 4"
     },
     {
         "user_id": "5",
-        "user_name": "chang",
-        "user_display_name": "Changes Lohar"
+        "user_name": "user5",
+        "user_display_name": "User 5"
     },
     {
         "user_id": "7",
-        "user_name": "john",
-        "user_display_name": "Johanesh Edward"
-    },
-    {
-        "user_id": "8",
-        "user_name": "chris",
-        "user_display_name": "Christine woman"
-    },
-    {
-        "user_id": "9",
-        "user_name": "pet",
-        "user_display_name": "Peter Parker"
-    },
-    {
-        "user_id": "10",
-        "user_name": "hod",
-        "user_display_name": "Anupam Sir"
-    },
-    {
-        "user_id": "11",
-        "user_name": "gay",
-        "user_display_name": "Roshan"
-    },
-    {
-        "user_id": "12",
-        "user_name": "sahil",
-        "user_display_name": "Mohammed Sahil"
-    },
-    {
-        "user_id": "13",
-        "user_name": "mota",
-        "user_display_name": "Debarko"
-    },
-    {
-        "user_id": "14",
-        "user_name": "shankhya",
-        "user_display_name": "Shankhya Jyoti Dhar"
+        "user_name": "user6",
+        "user_display_name": "User 6"
     }
 ]
